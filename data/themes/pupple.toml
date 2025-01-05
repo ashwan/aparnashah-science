@@ -1,0 +1,24 @@
+# Theme metadata
+name = "Pupple"
+
+[light]
+# Primary
+primary = "#5F0F40" 
+
+# Menu
+menu_primary = "#5F0F40"
+menu_text = "#ddd"
+menu_text_active = "#fff"
+menu_title = "#fff"
+
+# Home sections
+background = "#fff"
+home_section_odd = "#fff"
+home_section_even = "#ddd"
+
+[dark]
+  # Primary
+  primary = "#bbdefb"
+
+  link = "#bbdefb"
+  link_hover = "#bbdefb"

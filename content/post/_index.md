@@ -1,6 +1,8 @@
 ---
-title: Posts
+title: News
 cms_exclude: true
+url: /news
+share: false
 
 # View.
 #   1 = List
