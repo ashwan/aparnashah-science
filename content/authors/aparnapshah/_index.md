@@ -57,7 +57,7 @@ social:
     link: 'mailto:aparnashah@vt.edu'
   - icon: bluesky
     icon_pack: fab
-    link: https://bsky.app/profile/neuromusings.bluesky.social
+    link: https://bsky.app/profile/neuromusings.bsky.social
     label: Follow me on Bluesky
     display:
       header: true
