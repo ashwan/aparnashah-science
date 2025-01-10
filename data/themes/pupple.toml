@@ -17,8 +17,4 @@ home_section_odd = "#fff"
 home_section_even = "#ddd"
 
 [dark]
-  # Primary
-  primary = "#bbdefb"
-
-  link = "#bbdefb"
-  link_hover = "#bbdefb"
+primary = "#a3a1c0"

@@ -10,3 +10,4 @@ go.sum
 .hugo_build.lock
 new_container.sh
 view.sh
+aparna.code-workspace

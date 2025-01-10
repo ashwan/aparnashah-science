@@ -25,7 +25,7 @@ sections:
       items:
         - title: Assistant Professor
           company: School of Neurosscience, Virginia Tech
-          company_url: 'https://neuroscience.vt.edu/'
+          company_url:
           company_logo: org-vt
           location: Blacksburg, Virginia
           date_start: '2021-07-10'

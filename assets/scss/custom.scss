@@ -24,18 +24,22 @@ h1 {
   color: #0F4C5C;
 }
 
-/* Styling interests list */
+/* Styling interests list - setting it to a brain icon */
 .ul-interests li i:before {
   content:"\f5dc"
 }
 
-/* Styling the gallery */
-
-.gallery a[data-fancybox] img {
-  height: 190px;
+/* Smaller image thumbnails for a gallery */
+.gallery-grid {
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-auto-rows: 160px;
 }
 
-/* Test styles for images in outreach page */
+.gallery-item--medium {
+  grid-row-end: auto;
+}
+
+/* Smaller article thumbnails in Outreach page */
 figure.outreach-img {
   width: 190px;
   padding: 4px;
@@ -45,3 +49,55 @@ figure.outreach-img {
 .outreach-img a {
   text-decoration: underline;
 }
+
+/* Adding some styles for dark mode */
+/* for the experience elements       */
+.dark .experience .m-2 .border,
+.dark .experience .col.border-right {
+  border-color: $sta-dark-link !important;
+}
+
+.dark .experience .m-2 .border.exp-fill {
+  background-color: $sta-dark-link !important;
+}
+
+/* Color for the dark mode nav bar */
+.dark .navbar {
+  background-color: $sta-primary;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(223, 143, 192, 0.11);
+}
+
+/* Dark mode color for article titles when hovered should be white */
+.dark .article-title a:hover {
+  color: #fff;
+}
+
+/* In dark mode, summary below articles when hovered should be plain text color */
+.dark a.summary-link:hover {
+  color: unset;
+}
+
+/* Styles for the buttons in dark mode */
+.dark .btn-outline-primary {
+  color: $sta-dark-link;
+  border-color: $sta-dark-link; }
+
+.dark .btn-outline-primary:hover {
+    color: #000;
+    background-color: $sta-dark-link;
+    border-color: $sta-dark-link; }
+  
+.dark .btn-outline-primary:focus, .dark .btn-outline-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(187, 222, 251, 0.5); }
+  
+.dark .btn-outline-primary.disabled, .dark .btn-outline-primary:disabled {
+    color: $sta-dark-link;
+    background-color: transparent; }
+
+.dark .btn-outline-primary:not(:disabled):not(.disabled):active, .dark .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .dark .btn-outline-primary.dropdown-toggle {
+    color: #000;
+    background-color: $sta-dark-link;
+    border-color: $sta-dark-link; }
+
+.dark .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .dark .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .dark .btn-outline-primary.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(187, 222, 251, 0.5); }
