@@ -59,8 +59,6 @@ social:
     icon_pack: fab
     link: https://bsky.app/profile/neuromusings.bsky.social
     label: Follow me on Bluesky
-    display:
-      header: true
   - icon: x-twitter
     icon_pack: fab
     link: https://twitter.com/neuro_musings
@@ -73,9 +71,9 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/CV_AparnaShah.pdf
+#  - icon: cv
+#    icon_pack: ai
+#    link: uploads/CV_AparnaShah.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
